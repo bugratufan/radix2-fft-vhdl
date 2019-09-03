@@ -1,0 +1,18 @@
+vlib work
+
+#vcom -explicit  -2002 -work work "adder.vhd"
+#vcom -explicit  -2002 -work work "t_adder.vhd"
+vcom -explicit  -2002 -work work "adder.vhd"
+vcom -explicit  -2002 -work work "complex_adder.vhd"
+vcom -explicit  -2002 -work work "multiplier.vhd"
+vcom -explicit  -2002 -work work "complex_multi.vhd"
+vcom -explicit  -2002 -work work "radix2.vhd"
+vcom -explicit  -2002 -work work "t_radix2.vhd"
+
+vsim -t 100ps -novopt -lib work T_RADIX
+
+view wave
+view structure
+view signals
+do wave.do
+#run -all
