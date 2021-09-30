@@ -8,16 +8,16 @@ With the RADIX2 Module created within the scope of this project, it is aimed to 
 
 The system has 16 inputs in the IEEE-754 standard, each of which consists of 32 bits. The sampled signal value must be entered into these inputs. The results of the FFT process come out in the IEEE-754 32bit standard. Complex numbers are output as 2 pieces of IEEE-754 32bit standard, one for the complex part and one for the real part.
 
-<h2>EXPECTED INCORRECT RESULTS</h2> 
-In some cases where the result is 0, it can give results very close to zero.
+<h3>EXPECTED INCORRECT RESULTS</h3> 
+**In some cases where the result is 0, it can give results very close to zero.**
 
 
-<h2>REFERENCES</h2>
+<h3>REFERENCES</h3>
 [1] Ze-ke Wang, Xue Liu, “A combined SDC-SDF architecture for normal I/O pipelined radix-2 FFT”, IEEE Transactions on Very Large Scale Integration (VLSI) Systems, May 2014.
 
 This IEEE-754 multiplication module used in the design: https://www.edaboard.com/showthread.php?52628-FLOATING-POINT-MULTIPLICATION-USING-VHDL
 
-<h2>USEFUL ARTICLES AND LINKS</h2>
+<h3>USEFUL ARTICLES AND LINKS</h3>
 Nandyala Ramanatha Reddy, Lyla B. Das, A.Rajesh, Sriharsha Enjapuri, Dept. of Electronics and Communication, NIT Calicut, Calicut, India, “ASIC Implementation of High speed Fast Fourier Transform Based on Split-Radix algorithm”, International Conference on Embedded Systems, 2014
 
 754-2008 - IEEE Standard for Floating-Point Arithmetic - IEEE Standard. [online] Available at: https://ieeexplore.ieee.org/document/4610935.
