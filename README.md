@@ -9,7 +9,7 @@ With the RADIX2 Module created within the scope of this project, it is aimed to 
 The system has 16 inputs in the IEEE-754 standard, each of which consists of 32 bits. The sampled signal value must be entered into these inputs. The results of the FFT process come out in the IEEE-754 32bit standard. Complex numbers are output as 2 pieces of IEEE-754 32bit standard, one for the complex part and one for the real part.
 
 <h3>EXPECTED INCORRECT RESULTS</h3> 
-**In some cases where the result is 0, it can give results very close to zero.**
+In some cases where the result is 0, it can give results very close to zero.
 
 
 <h3>REFERENCES</h3>
