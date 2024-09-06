@@ -6,5 +6,5 @@ authors:
   orcid: "https://orcid.org/0000-0002-4777-9854"
 title: "Radix-2 FFT Implementation in VHDL"
 version: 1.0
-date-released: 2024-09-06
+date-released: 2029-09-03
 url: "https://github.com/bugratufan/radix2-fft-vhdl"
